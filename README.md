@@ -20,13 +20,13 @@ PS:这个代码中用于测试输入的方式直接就是input()，因此处理�
 
 直接连接mqtt，作为客户端接受数据然后处理，这中间传输的数据是hex
 
-**subscribe2html.py**
+**subscribe2html.py (仅供参考！！！)**
 
 使用ai做的尝试，试图将脚本分析的数据显示到html网页中
 
 在实现了部分的车轮报文解码的基础上，通过flask库和websocket将脚本（websocket服务端）与网页（websocket客户端）连接
 
-**scalable_static_py2html.py**
+**scalable_static_py2html.py (仅供参考！！！)**
 
 使用ai做的尝试，试图将html代码改成可以扩展的格式（不太成功，这一版html文件要做扩展依旧很复杂）
 
